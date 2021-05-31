@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './styles.css'
 
+
 import { FaSearch } from 'react-icons/fa';
 
 const BuscaUsuario = () => {
@@ -26,17 +27,31 @@ const BuscaUsuario = () => {
 
 
 
-    const setData = ({ name, login, followers, following, avatar, bio, public_repos, location, site}) =>{
+    const setData = ({ name, login, followers, following, avatar_url, bio, public_repos, location, site}) =>{
         setName(name)
         setUserName(login)
         setFollowers(followers)
         setFollowing(following)
-        setAvatar(avatar)
+        setAvatar(avatar_url)
         setBio(bio)
         setRepos(public_repos)
         setLocation(location)
         setSite(site)
     };
+
+    const handleSearch = (ev) => {
+        setUserInput(ev.target.value)
+        console.log(userInput)
+    }
+
+    const handleSubmit = (ev) => {
+        ev.preventDefault();
+        fetch(`https://api.github.com/users/${userInput}`)
+            .then(res => res.json())
+            .then(data =>{
+                setData(data);
+            })
+    }
 
 
     return (
@@ -44,22 +59,63 @@ const BuscaUsuario = () => {
         <div className="containerBusca">
             <div className="customwrapper">
                 <h1 className="h1pesquisa">Buscar Usuários</h1>
-                <form>
-                <button type="button" class="lupa"><FaSearch/></button>               
-                <input type="text" className="inputbusca"/>
+                <form onSubmit={handleSubmit}>
+                    <button type="submit" class="lupa"><FaSearch/></button>               
+                    <input type="text" className="inputbusca" onChange={handleSearch}/>
                 </form>
             </div>
             <div className="resultadosBusca">
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
-                <div className="retanguloUsuario">Henrique</div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
+                <div className="retanguloUsuario">
+                    <img src={avatar}/>
+                    <p>{name}</p>
+                    <button type="button">Ver perfil</button>
+                </div>
             </div>
         </div>
 

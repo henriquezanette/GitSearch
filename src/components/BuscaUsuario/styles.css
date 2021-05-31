@@ -67,6 +67,24 @@
     grid-template-rows: 1fr 1fr;
 }
 
+.retanguloUsuario{
+    height: 210px;
+    width: 150px;
+    box-sizing: border-box;
+    margin: 1px 1px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+}
+
+img{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+
+
 
 
 
