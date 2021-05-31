@@ -1,0 +1,48 @@
+.logotitulo{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.logoDashboard{
+    width: 140px;
+    height: 140px;
+    
+
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btnTodos{
+
+    font-size: 1rem;
+    color: #fff;
+    background: #344FA5;
+    border: 0;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 20px 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.btnSearch{
+    font-size: 1rem;
+    color: #fff;
+    background: #6FCF97;
+    border: 0;
+    margin-left: 0.25rem;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 20px 20px;
+    width: 200px;
+    height: 50px;
+}
