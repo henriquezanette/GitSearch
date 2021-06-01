@@ -69,61 +69,61 @@ const BuscaUsuario = () => {
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>          
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
                 <div className="retanguloUsuario">
                     <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
                     <Link to={`/pesquisa/${userName}`}>
-                        <p>{name}</p>
+                        <p className="nomeUsuario">{name}</p>
                     </Link>
                 </div>
             </div>

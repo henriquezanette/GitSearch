@@ -23,3 +23,41 @@
     background-color: #fff;
     margin-left: 15px;
 }
+
+.setaEsquerda{
+    display:none;
+}
+
+@media screen and (max-width: 480px) {
+    .logoHeader{
+        display: none;
+    }
+
+    .h1header{
+        display: none;
+    }
+
+    .setaEsquerda{
+        height: 25px;
+        width: 25px;
+        color: #000;
+        margin-left: 15px;
+        text-align: center;
+        display: flex;
+        margin-top: -110px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .logoHeader{
+        margin-left: -1px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .logoHeader{
+        margin-left: -1px;
+    }
+}

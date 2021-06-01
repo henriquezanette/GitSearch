@@ -1,5 +1,3 @@
-
-
 .containerBusca{
     display: flex;
     justify-content: center;
@@ -96,9 +94,165 @@ button{
 }
 
 
+@media screen and (max-width: 480px){
+    .containerBusca{
+        background: #F8FAFB;
+        box-shadow: none;
+        height: 100%;
+    }
 
+    .h1pesquisa{
+        display:none;
+    }
 
+    .lupa{
+        margin-top: 100px;
+        margin-left: -940px;
+        z-index: 10;
+    }
 
+    .inputbusca{
+        width: 210px;   
+    }
+
+    .customwrapper{
+        background: transparent;
+        margin-top: -2140px;
+    }
+
+    .resultadosBusca{  
+        margin-left: -1470px;  
+        display:inline-block;
+        margin-top: 90px;
+    }
+
+    .retanguloUsuario{
+        height: 50px;
+        width: 15px;
+        margin-left: -450px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .imgBusca{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nomeUsuario{   
+        margin-top: 10px;
+     }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .containerBusca{
+        background: #F8FAFB;
+        box-shadow: none;
+        height: 100%;
+    }
+
+    .h1pesquisa{
+        display:none;
+    }
+
+    .lupa{
+        margin-top: -150px;
+        margin-left: -900px;
+        z-index: 10;
+    }
+
+    .inputbusca{
+        width: 270px;   
+    }
+
+    .customwrapper{
+        background: transparent;
+        margin-top: -2140px;
+        background: #F8FAFB;
+    }
+
+    .resultadosBusca{  
+        margin-left: -1370px;  
+        display:inline-block;
+        margin-top: 90px;
+    }
+
+    .retanguloUsuario{
+        height: 50px;
+        width: 15px;
+        margin-left: -450px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .imgBusca{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nomeUsuario{   
+        margin-top: 10px;
+     }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .containerBusca{
+        background: #F8FAFB;
+        box-shadow: none;
+        height: 100%;
+    }
+
+    .h1pesquisa{
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 1010px;
+
+    }
+
+    .lupa{
+        margin-top: 1150px;
+        margin-left: -430px;
+        z-index: 10;
+    }
+
+    .inputbusca{
+        width: 270px;   
+    }
+
+    .customwrapper{
+        background: transparent;
+        margin-top: -2140px;
+        background: #F8FAFB;
+        margin-left: -650px;
+    }
+
+    .resultadosBusca{  
+        margin-left: -1100px;  
+        margin-top: 130px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .retanguloUsuario{
+        height: 50px;
+        width: 15px;
+        margin-left: -450px;
+        border: none;
+        box-shadow: none;
+        background-color: #fff;
+    }
+
+    .imgBusca{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nomeUsuario{   
+        margin-top: 10px;
+     }
+}
 
 
 

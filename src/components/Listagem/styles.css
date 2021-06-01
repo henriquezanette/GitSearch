@@ -25,6 +25,12 @@
     
 }
 
+.h1Todos{
+    margin-right: 650px;
+    margin-left: 100px;
+    font-size: 38px;
+}
+
 
 .customwrapperTodos{
     display: flex;
@@ -75,10 +81,38 @@ button{
 
 }
 
+@media screen and (max-width: 480px){
+    .resultadosBuscaTodos{
+        margin-top: 4950px;
+        margin-left: -1200px;
+        display: inline-block;
+    }
 
+    .h1Todos{
+        display: none;
+    }
+}
 
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .resultadosBuscaTodos{
+        margin-top: 4950px;
+        margin-left: -1200px;
+        display: inline-block;
+    }
 
+    .h1Todos{
+        display: none;
+    }
+}
 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .resultadosBuscaTodos{
+        margin-top: 5150px;
+        margin-left: -850px;
+        display: inline-block;
+    }
 
-
-
+    .h1Todos{
+        margin-left: -250px;
+    }
+}

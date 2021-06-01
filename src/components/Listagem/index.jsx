@@ -22,7 +22,7 @@ const Listagem = () => {
         <div className="bigWrapper" style={{background:"#F8FAFB"}}>
         <div className="containerBuscaTodos" >
             <div className="customwrapperTodos">
-                <h1 className="h1pesquisa">Todos Usuários</h1>
+                <h1 className="h1Todos">Todos Usuários</h1>
             </div>
 
             <div className="resultadosBuscaTodos">

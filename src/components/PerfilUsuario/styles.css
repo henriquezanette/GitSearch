@@ -212,3 +212,465 @@
 
     border: 0.5px solid #586069 ;
 }
+
+@media screen and (max-width: 480px){
+    .containerPerfil{
+        box-shadow: none;
+    }
+
+    .bigWrapper{
+        margin-top: -40px;
+        margin-left: -150px;
+    }
+
+    .headerPerfil{
+        margin-top: -25px;
+        margin-left: -210px;
+    }
+
+    .barraCinza{
+        display:none;
+    }
+
+    .fotoPerfil{
+        margin-left: 60px;
+        margin-top: 45px;
+    }
+
+    .nomePerfil{
+        margin-top: 250px;
+        margin-left: 25px;
+    }
+
+    .loginPerfil{
+        margin-left: 100px;
+    }
+
+    .iconeUsuario{
+        margin-left: 85px;
+
+    }
+
+    .seguindoPerfil{
+        margin-left: -1500px;
+        margin-top: 10px;
+    }
+
+    .projetosPerfil{
+        margin-left: -1290px;
+    }
+
+    .seguidoresPerfil{
+        margin-left: -1070px;
+    }
+
+    .sobrePerfil{
+        margin-top: 670px;
+    }
+
+    .sobreMenu{
+        display:inline-block;
+        width: 145px;
+        margin-left: 115px;
+    }
+
+    .projetosMenu{
+        width: 145px;
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+
+    .bio{
+        display: flex;
+        color:#162668;
+        font-size: 22px;
+    }
+    
+
+    p.bio {
+        margin-top: -1070px;
+        margin-left: -470px;
+    }
+
+    .bioPerfil{
+        margin-left: -470px;
+        font-size: 16px;
+        max-width: 250px;
+        word-wrap:break-word;
+    }
+
+    .infoPerfil{
+        margin-top: 690px;
+    }
+
+    .imagemLocal{
+        height: 15px;
+        width: 15px;
+        margin-top: 122px;
+        margin-left: -470px;
+    }
+
+    .localPerfil{
+        margin-top: -20px;
+        margin-left: -450px;
+    }
+
+    .imagemBlog{
+        margin-left: -470px;
+    }
+
+    .blogPerfil{
+        margin-left: -450px;
+    }
+
+    .repositorioGit{
+        margin-left: 1050px;
+        margin-top: -120px;
+    }
+
+    .repositorioNome{
+        font-size: 14px;
+    }
+
+    .repositorioDesc{
+        margin-top: -5px;
+        font-size: 8px;
+        max-width: 250px;
+        word-wrap:break-word;
+    }
+
+    .repositorioData{
+        font-size: 8px;
+        margin-left: 150px;
+        margin-top: 10.5px;
+        margin-bottom: 1px;
+    }
+
+    .repositorioLinguagem{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: -25px;
+        margin-bottom: 5px;
+    }
+
+
+    .linhaCinza{
+        margin-top: -5px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .containerPerfil{
+        box-shadow: none;
+    }
+
+    .bigWrapper{
+        margin-top: -40px;
+        margin-left: -150px;
+    }
+
+    .headerPerfil{
+        margin-top: -25px;
+        margin-left: -210px;
+    }
+
+    .barraCinza{
+        display:none;
+    }
+
+    .fotoPerfil{
+        margin-left: 100px;
+        margin-top: 45px;
+    }
+
+    .nomePerfil{
+        margin-top: 250px;
+        margin-left: 65px;
+    }
+
+    .loginPerfil{
+        margin-left: 150px;
+    }
+
+    .iconeUsuario{
+        margin-left: 135px;
+
+    }
+
+    .seguindoPerfil{
+        margin-left: -1400px;
+        margin-top: 10px;
+    }
+
+    .projetosPerfil{
+        margin-left: -1190px;
+    }
+
+    .seguidoresPerfil{
+        margin-left: -970px;
+    }
+
+
+    .sobrePerfil{
+        margin-top: 670px;
+    }
+
+    .menuPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobreMenu{
+        margin-left: 150px;
+        margin-top: -450px;
+        font-size: 1rem;
+        border: 0;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+    }
+
+    .projetosMenu{
+        margin-left: 150px;
+        margin-top: -450px;
+    }
+
+
+    .bio{
+        display: flex;
+        color:#162668;
+        font-size: 22px;
+    }
+    
+
+    p.bio {
+        margin-top: -1070px;
+        margin-left: -470px;
+    }
+
+    .bioPerfil{
+        margin-left: -470px;
+        font-size: 16px;
+        max-width: 250px;
+        word-wrap:break-word;
+    }
+
+    .infoPerfil{
+        margin-top: 690px;
+    }
+
+    .imagemLocal{
+        height: 15px;
+        width: 15px;
+        margin-top: 122px;
+        margin-left: -470px;
+    }
+
+    .localPerfil{
+        margin-top: -20px;
+        margin-left: -450px;
+    }
+
+    .imagemBlog{
+        margin-left: -470px;
+    }
+
+    .blogPerfil{
+        margin-left: -450px;
+    }
+
+    .repositorioGit{
+        margin-left: 950px;
+        margin-top: -120px;
+    }
+
+    .repositorioNome{
+        font-size: 16px;
+
+    }
+
+    .repositorioDesc{
+        margin-top: 5px;
+        font-size: 8px;
+        max-width: 250px;
+        word-wrap:break-word;
+        padding-top: -10px;
+    }
+
+    .repositorioData{
+        font-size: 8px;
+        margin-left: 150px;
+        margin-top: 5.5px;
+    }
+
+    .repositorioLinguagem{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: -45px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .linhaCinza{
+        margin-top: -5px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .containerPerfil{
+        box-shadow: none;
+    }
+
+    .bigWrapper{
+        margin-top: -40px;
+        margin-left: -150px;
+    }
+
+    .headerPerfil{
+        margin-top: -25px;
+        margin-left: -210px;
+    }
+
+    .barraCinza{
+        display:none;
+    }
+
+    .fotoPerfil{
+        margin-left: 255px;
+        margin-top: 45px;
+    }
+
+    .nomePerfil{
+        margin-top: 250px;
+        margin-left: 205px;
+    }
+
+    .loginPerfil{
+        margin-left: 255px;
+    }
+
+    .iconeUsuario{
+        margin-left: 235px;
+
+    }
+
+    .seguindoPerfil{
+        margin-left: -1150px;
+        margin-top: 10px;
+    }
+
+    .projetosPerfil{
+        margin-left: -890px;
+    }
+
+    .seguidoresPerfil{
+        margin-left: -640px;
+    }
+
+
+    .sobrePerfil{
+        margin-top: 670px;
+    }
+
+
+
+    .sobreMenu{
+        margin-left: -90px;
+        margin-top: -450px;
+        margin-bottom: 25px;
+        
+    }
+
+    .projetosMenu{
+        display:flex;
+        margin-left: 290px;
+        margin-top: -72px;
+    }
+
+
+    .bio{
+        display: flex;
+        color:#162668;
+        font-size: 22px;
+    }
+    
+
+    p.bio {
+        margin-top: -1070px;
+        margin-left: -470px;
+    }
+
+    .bioPerfil{
+        margin-left: -470px;
+        font-size: 16px;
+        max-width: 250px;
+        word-wrap:break-word;
+    }
+
+    .infoPerfil{
+        margin-top: 690px;
+    }
+
+    .imagemLocal{
+        height: 15px;
+        width: 15px;
+        margin-top: 122px;
+        margin-left: -470px;
+    }
+
+    .localPerfil{
+        margin-top: -20px;
+        margin-left: -450px;
+    }
+
+    .imagemBlog{
+        margin-left: -470px;
+    }
+
+    .blogPerfil{
+        margin-left: -450px;
+    }
+
+    .repositorioGit{
+        margin-left: 600px;
+        margin-top: -120px;
+    }
+
+    .repositorioNome{
+        font-size: 16px;
+        margin-bottom: 10px
+    }
+
+    .repositorioDesc{
+        font-size: 10px;
+        max-width: 250px;
+        word-wrap:break-word;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .repositorioData{
+        font-size: 8px;
+        margin-left: 150px;
+        margin-top: 8.5px;
+    }
+
+    .repositorioLinguagem{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: -25px;
+        margin-bottom: -15px;
+    }
+
+
+
+    .linhaCinza{
+        margin-top: -5px;
+    }
+
+} 
