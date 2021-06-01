@@ -12,11 +12,11 @@
 ## ⚙️ Configuração
 <p> 1 - Para instalar as dependências </p>
 
+>cd GitSearch
+>
 > npm install
 
 <p> 2 - Para rodar o projeto </p>
-
-> cd gitsearch1
 
 > npm start
 
