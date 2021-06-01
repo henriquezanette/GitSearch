@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 import './styles.css'
 
 
@@ -66,55 +67,64 @@ const BuscaUsuario = () => {
             </div>
             <div className="resultadosBusca">
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>          
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
                 <div className="retanguloUsuario">
-                    <img src={avatar}/>
-                    <p>{name}</p>
-                    <button type="button">Ver perfil</button>
+                    <img src={avatar} alt="imagemUsuario" className="imgBusca"/>
+                    <Link to={`/pesquisa/${userName}`}>
+                        <p>{name}</p>
+                    </Link>
                 </div>
             </div>
         </div>
